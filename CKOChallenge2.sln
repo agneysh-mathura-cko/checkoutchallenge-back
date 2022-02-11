@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CKOChallenge2", "CKOChallenge2\CKOChallenge2.csproj", "{4816BA6F-E2A0-4CE5-882C-22E12ABB1BE0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CKOChallenge2.UnitTests", "CKOChallenge2.UnitTests\CKOChallenge2.UnitTests.csproj", "{51D41852-4177-4A8D-BDB2-381BED372F8A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4816BA6F-E2A0-4CE5-882C-22E12ABB1BE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4816BA6F-E2A0-4CE5-882C-22E12ABB1BE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4816BA6F-E2A0-4CE5-882C-22E12ABB1BE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4816BA6F-E2A0-4CE5-882C-22E12ABB1BE0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51D41852-4177-4A8D-BDB2-381BED372F8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51D41852-4177-4A8D-BDB2-381BED372F8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51D41852-4177-4A8D-BDB2-381BED372F8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51D41852-4177-4A8D-BDB2-381BED372F8A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
