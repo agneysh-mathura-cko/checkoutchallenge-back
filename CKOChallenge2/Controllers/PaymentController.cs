@@ -30,11 +30,6 @@ public class PaymentController : ControllerBase
 
         var request = _requestMapper.MapToPaymentGatewayRequest(gatewayRequest);
 
-        if (request.Source.Number == "0000000000000000")
-        {
-            return BadRequest("Invalid card number");
-        }
-
         var result = await _paymentService.ProcessAsync(request);
 
         if (!result.Approved && !string.Equals(result.Status, "pending", StringComparison.OrdinalIgnoreCase))

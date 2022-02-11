@@ -1,6 +1,5 @@
 ﻿using CKOChallenge2.Domain;
 using CKOChallenge2.Domain.Services;
-using CKOChallenge2.Domain.Services.Communication;
 using CKOChallenge2.Dtos;
 
 namespace CKOChallenge2.Services

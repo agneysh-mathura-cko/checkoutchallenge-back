@@ -1,5 +1,4 @@
-﻿using System;
-using CKOChallenge2.Domain.Services;
+﻿using CKOChallenge2.Domain.Services;
 using CKOChallenge2.Services;
 using Shouldly;
 using Xunit;
